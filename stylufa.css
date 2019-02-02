@@ -90,3 +90,11 @@ body {
 		padding-right: 20px;
 	}
 }
+
+.form-row input[type="text"]:invalid,
+.form-row input[type="email"]:invalid {
+	border: 22px dotted #00dfaa;
+	font-size: 230px
+	color: black;
+	box-shadow: 88px 23px #00FFAA;
+}
